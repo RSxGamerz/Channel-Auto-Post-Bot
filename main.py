@@ -38,9 +38,9 @@ API_HASH = os.environ.get("0d47fc5de9b59e6427b14560708910ff")
 
 Bot = Client(
     "Channel Auto Post Bot",
-    bot_token=BOT_TOKEN,
-    api_id=API_ID,
-    api_hash=API_HASH
+    bot_token=6108492559:6108492559:AAE5WTjsq19eSLmmQ7tYSbSDJmzJ19fHjFs,
+    api_id=27657785,
+    api_hash=6108492559:0d47fc5de9b59e6427b14560708910ff
 )
 
 START_TEXT = """Hello {}, \
