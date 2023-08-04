@@ -32,9 +32,9 @@ AS_COPY = bool(os.environ.get("AS_COPY", True))
 REPLY_MARKUP = bool(os.environ.get("REPLY_MARKUP", False))
 
 # bot informations
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("6108492559:AAE5WTjsq19eSLmmQ7tYSbSDJmzJ19fHjFs")
+API_ID = int(os.environ.get("27657785"))
+API_HASH = os.environ.get("0d47fc5de9b59e6427b14560708910ff")
 
 Bot = Client(
     "Channel Auto Post Bot",
@@ -53,9 +53,9 @@ BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Feedback", url="https://telegram.me/FayasNoushad"),
+                text="POST YOUR AD", url="https://https://telegram.me/RX_PROMO_BOT"),
             InlineKeyboardButton(
-                text="Source Code", url="https://github.com/FayasNoushad/Channel-Auto-Post-Bot")
+                text="SUPPORT", url="https://telegram.md/chemmudealer")
         ]
     ]
 )
